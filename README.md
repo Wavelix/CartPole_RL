@@ -1,3 +1,10 @@
+# CartPole_RL
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?logo=PyTorch&logoColor=white)
+![Gymnasium](https://img.shields.io/badge/Gymnasium-%23007EC6.svg)
+![MuJoCo](https://img.shields.io/badge/MuJoCo-%2300769D.svg)
+
+本项目实现了基于DQN（Deep Q-Network）的倒立摆强化学习智能体，目标是让小车在MuJoCo物理引擎环境下稳定地保持倒立摆竖直，同时尽量避免小车越界。
+
 ```
 CartPole_RL/
 │
@@ -20,15 +27,15 @@ CartPole_RL/
 ```
 pip install gymnasium mujoco numpy matplotlib tqdm
 ```
-2. 训练模型
+1. 训练模型
 ```
 python train.py
 ```
-3. 测试模型
+1. 测试模型
 ```
 python test.py
 ```
-4. 生成可视化结果`.gif`
+1. 生成可视化结果`.gif`
 ```
 python utils/visualization.py
 ```
